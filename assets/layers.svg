@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="t d">
+  <title id="t">How deep it digs</title>
+  <desc id="d">Seven layers, from ordinary caches down to data the operating system restores on its own, each with a real example.</desc>
+  <style>
+    .s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .ink{fill:#f2ece4}
+  </style>
+  <rect width="1200" height="660" rx="20" fill="#171411"/>
+  <text x="56" y="70" class="s ink" font-size="36" font-weight="700">How deep it digs</text>
+  <text x="56" y="104" class="s" fill="#b8aea1" font-size="20">Each layer holds a real find from one Mac. Sizes are as measured.</text>
+  <g class="s">
+    <rect x="56" y="130" width="1088" height="66" rx="10" fill="#3a2c22"/>
+    <text x="80" y="158" class="ink" font-size="21" font-weight="600">1  App and tool caches</text><text x="80" y="183" fill="#d6ccbf" font-size="17">npm, browser and app caches</text><text x="1120" y="170" class="m ink" font-size="21" text-anchor="end">2.4 GB</text>
+    <rect x="96" y="204" width="1048" height="66" rx="10" fill="#4a3324"/>
+    <text x="120" y="232" class="ink" font-size="21" font-weight="600">2  Build output</text><text x="120" y="257" fill="#d6ccbf" font-size="17">A Rust target folder that nobody needs until the next build</text><text x="1120" y="244" class="m ink" font-size="21" text-anchor="end">51 GB</text>
+    <rect x="136" y="278" width="1008" height="66" rx="10" fill="#5b3a26"/>
+    <text x="160" y="306" class="ink" font-size="21" font-weight="600">3  Data of uninstalled apps</text><text x="160" y="331" fill="#e3d9cc" font-size="17">Three near-identical copies from an IDE that was gone</text><text x="1120" y="318" class="m ink" font-size="21" text-anchor="end">19.5 GB</text>
+    <rect x="176" y="352" width="968" height="66" rx="10" fill="#6e4128"/>
+    <text x="200" y="380" class="ink" font-size="21" font-weight="600">4  Tools in odd places</text><text x="200" y="405" fill="#efe6da" font-size="17">An Android SDK inside Homebrew's share folder</text><text x="1120" y="392" class="m ink" font-size="21" text-anchor="end">11 GB</text>
+    <rect x="216" y="426" width="928" height="66" rx="10" fill="#84492a"/>
+    <text x="240" y="454" class="ink" font-size="21" font-weight="600">5  Scratch folders of old agent sessions</text><text x="240" y="479" fill="#f5ecdf" font-size="17">Build output nobody would ever look for</text><text x="1120" y="466" class="m ink" font-size="21" text-anchor="end">7.3 GB</text>
+    <rect x="256" y="500" width="888" height="66" rx="10" fill="#a0552f"/>
+    <text x="280" y="528" class="ink" font-size="21" font-weight="600">6  Orphaned sync folders</text><text x="280" y="553" fill="#fbf3e8" font-size="17">An old Drive mount, holding files that were never uploaded</text><text x="1120" y="540" class="m ink" font-size="21" text-anchor="end">49 GB</text>
+    <rect x="296" y="574" width="848" height="66" rx="10" fill="#c56a3c"/>
+    <text x="320" y="602" fill="#fff" font-size="21" font-weight="600">7  What the system quietly brings back</text><text x="320" y="627" fill="#fff" font-size="17">Unused simulator runtimes that kept returning after restarts</text>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="t d">
+  <title id="t">Deep Dig</title>
+  <desc id="d">A terminal listing large junk found on a Mac, sorted into safe, has consequences and stays. Nothing is deleted until the user approves it.</desc>
+  <style>
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+    .ink{fill:#f2ece4}.dim{fill:#a39a8e}.line{stroke:#39332c}
+  </style>
+  <rect width="1200" height="640" rx="20" fill="#171411"/>
+  <text x="64" y="104" class="s ink" font-size="60" font-weight="700" letter-spacing="-1.2">Deep Dig</text>
+  <text x="64" y="150" class="s dim" font-size="25">Claude digs through your whole computer. You decide what goes.</text>
+  <rect x="64" y="190" width="1072" height="386" rx="12" fill="#0f0d0b" stroke="#39332c"/>
+  <circle cx="92" cy="218" r="6" fill="#57504a"/><circle cx="114" cy="218" r="6" fill="#57504a"/><circle cx="136" cy="218" r="6" fill="#57504a"/>
+  <text x="170" y="224" class="m dim" font-size="17">/deep-dig</text>
+  <line x1="64" y1="240" x2="1136" y2="240" class="line"/>
+  <g class="m" font-size="20">
+    <circle cx="96" cy="279" r="7" fill="#7fb77e"/><text x="118" y="286" fill="#7fb77e" font-weight="700">SAFE</text>
+    <text x="118" y="322" class="ink">Three copies of an uninstalled IDE's data</text><text x="1104" y="322" class="dim" text-anchor="end">19.5 GB</text>
+    <text x="118" y="354" class="ink">Android SDK left behind in a Homebrew folder</text><text x="1104" y="354" class="dim" text-anchor="end">11.0 GB</text>
+    <circle cx="96" cy="393" r="7" fill="#e0a458"/><text x="118" y="400" fill="#e0a458" font-weight="700">HAS CONSEQUENCES</text>
+    <text x="118" y="436" class="ink">Rust build output, next build takes longer</text><text x="1104" y="436" class="dim" text-anchor="end">51.0 GB</text>
+    <circle cx="96" cy="475" r="7" fill="#d9705f"/><text x="118" y="482" fill="#d9705f" font-weight="700">STAYS</text>
+    <text x="118" y="518" class="ink">Old Drive folder: 1,609 files never uploaded</text><text x="1104" y="518" class="dim" text-anchor="end">49.0 GB</text>
+  </g>
+  <line x1="64" y1="540" x2="1136" y2="540" class="line"/>
+  <text x="96" y="564" class="m" font-size="18" fill="#d97757">Nothing deleted yet. What should go?</text>
+  <text x="64" y="614" class="s dim" font-size="19">Real findings from my own Mac. macOS, Linux and Windows. A skill for Claude Code.</text>
+</svg>
